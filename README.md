@@ -13,6 +13,7 @@ If you need to access this page from the internet, then use ngrok
 ```ngrok http localhost:8000```
 
 Which will generate a temporary URL for you.
+
 ---
 Navigating to the index.html page will prompt you to enter a name, after clicking the Submit button you will be taken to the dom.html page.
 This page contains a vulnerable JavaScript sink which can be used to demo Dom-based XSS.

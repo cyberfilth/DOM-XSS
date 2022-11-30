@@ -4,7 +4,7 @@ Small web app vulnerable to DOM-based Cross Site Scripting
 Used to demo DOM Invader Burp extension
 
 
-This website can be run locally using a Python web server on port 8000
+This website can be run locally using a Python web server on port 8000, just navigate to the folder where the .html files are stored and enter:
 
 ```python -m http.server 8000 --bind localhost```
 

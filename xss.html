@@ -8,19 +8,42 @@
   </head>
   <body>
   <h1 style="background-color: teal; color: white;">Crap web app...</h1>
-<br />
-
-  <p style="border-width:3px; border-style:solid; border-color:#FF0000; padding: 1em;">
   
-  
-	The entered name was  
-<strong>	
-<script>
+  <table style="width:100%">
+  <tr>
+    <td style="width:50%">
+      <p style="border-width:3px; border-style:solid; border-color:#FF0000; padding: 1em;">
+      	The entered name was  
+	<strong>	
+	<script>
+	
+	
 	var username = document.URL.indexOf("name=")+5;
 	var user = unescape(document.URL.substring(username));
 	document.write(user);
-</script>
-</strong>
-  </p>
+	
+	
+	</script>
+	</strong>
+  	</p>
+    </td>    
+    <td style="text-align:right;">
+    <p id="vulnButton">[ Click here ]   </p>
+	<script>
+		document.getElementById("vulnButton").onclick = function() {myFunction()};
+
+		function myFunction() {
+		  document.getElementById("vulnButton").innerHTML = "<span style='background-color:teal;color:white;font-weight:bold;'>&nbsp;&nbsp;You clicked the thing&nbsp;&nbsp;</span>";
+					}
+	</script>
+    
+    </td>    
+  </tr>    
+</table>
+<br /><br /><br />
 
 </html>
+
+
+
+

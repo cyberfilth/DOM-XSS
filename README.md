@@ -18,3 +18,5 @@ Which will generate a temporary URL for you.
 Navigating to the index.html page will prompt you to enter a name, after clicking the Submit button you will be taken to the xss.html page.
 
 This page contains a vulnerable JavaScript sink which can be used to demo Dom-based XSS.
+
+It also has a link on the right of the page to demo the 'set Autofire events' option of DOM Invader.
